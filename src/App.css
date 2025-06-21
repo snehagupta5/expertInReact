@@ -1,0 +1,13 @@
+.ScrollContainer{
+    height: 60vh;
+    background-color: rgb(206, 230, 230);
+    overflow: auto;
+    padding: 16px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:2px
+}
