@@ -59,7 +59,7 @@ const ScrollHome = () => {
         //     </div>
         //     {loading && <div>...loading</div>}
         // </div>
-        <>
+        <div style={{marginTop:'2rem',border:'1px solid grey'}}>
             <List
                 height={400}
                 itemCount={data.length}
@@ -68,7 +68,7 @@ const ScrollHome = () => {
                 {row}
             </List>
             {loading && <div style={{ textAlign: 'center', marginTop: 10 }}>Loading...</div>}
-        </>
+        </div>
     )
 }
 

@@ -11,3 +11,75 @@
     flex-direction: column;
     gap:2px
 }
+/* tabForm ccs */
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.tab_container {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.tab {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+.Profile_container {
+  text-align: left;
+  display: flex;
+  gap: 1rem;
+  margin: 10px 0px;
+}
+.summar_container {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.button_container {
+  display: flex;
+  cursor: pointer;
+  gap: 4px;
+  justify-content: center;
+}
+.pointer {
+  cursor: pointer;
+}
+.Error {
+  font-size: 12px;
+  color: red;
+}
+/* tabForm ccs */
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 2rem 0rem;
+}
+.pagination_key {
+  border: 1px solid grey;
+  padding: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.img {
+  width: 100px;
+  height: 100px;
+}
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.one_product {
+  border: 1px solid black;
+  padding: 10px;
+}
+.activePage {
+  border: 2px solid blue;
+}
+/* Pagination */
